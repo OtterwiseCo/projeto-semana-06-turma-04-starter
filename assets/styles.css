@@ -275,3 +275,130 @@ body {
   max-width: 189px;
   justify-content: center;
 }
+
+.final-price {
+  background-image: url("./images/rectangle.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.outro {
+  max-width: 600px;
+  margin: auto;
+}
+
+.outro .container {
+  display: flex;
+  justify-content: center;
+}
+
+.outro .outro-title {
+  color: #091133;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.outro .outro-description {
+  color: #6f7cb2;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  justify-content: center;
+}
+
+.outro-small {
+  max-width: 300px;
+  margin: auto;
+}
+
+.outro-small .outro-small-title {
+  color: #222f65;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 66px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.outro-small .outro-small-subtitle {
+  color: #222f65;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.outro-small .outro-small-description {
+  color: #222f65;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.outro-small .button__primary {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #e7ecff;
+  height: 240px;
+  margin: auto;
+  margin-top: -120px;
+}
+
+.footer .footer-brand {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  align-items: center;
+}
+
+.footer-brand-copyright {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #939ea4;
+}
+
+.footer-links {
+  margin-top: 46px;
+  padding-top: 20px;
+  border-top: 1px solid #cdd1d4;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links-icons .footer-links-icons-img {
+  margin-left: 30px;
+}
+
+.button-small {
+  border-radius: 2px;
+  border: none;
+  padding: 4px 0;
+  min-width: 109px;
+  font-size: 12px;
+  line-height: 18px;
+  max-height: 26px;
+}
+
+.button-small__primary {
+  background-color: #111b47;
+  color: white;
+}
+
+.link__footer {
+  color: #929ecc;
+  margin-right: 60px;
+}
