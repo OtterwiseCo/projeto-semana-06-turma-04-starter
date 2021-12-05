@@ -161,6 +161,18 @@ body {
 }
 
 /* footer */
+
+.footer-background {
+  background-image: url("./images/Rectangle.png");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 1920px;
+}
+
 .footer-price {
   justify-content: center;
   height: 78px;
@@ -169,4 +181,73 @@ body {
 .footer-box-center {
   max-width: 600px;
   text-align: center;
+}
+
+.text-price-40 {
+  font-size: 50px;
+  margin: 40px;
+  line-height: 0px;
+  font-weight: 500;
+  color: #222f65;
+}
+
+.footer-text-design {
+  color: #37447e;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 69px;
+}
+
+.footer-text-secondary {
+  font-size: 14px;
+  line-height: 24px;
+  color: #5d6970;
+}
+
+.footer-end {
+  padding-top: 70px;
+  width: auto;
+  height: 216px;
+  background: #e7ecff;
+  margin-top: -200px;
+}
+
+.info-footer {
+  justify-content: space-between;
+}
+
+.button-footer {
+  border: none;
+  min-width: 109px;
+  font-size: 14px;
+  border-radius: 2px;
+  height: 32px;
+  padding: 1px 16px 1px 16px;
+}
+
+.copyright {
+  font-size: 14px;
+  line-height: 24px;
+  color: #939ea4;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  background: #cdd1d4;
+  height: 1px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.link_footer {
+  color: #929ecc;
+}
+
+.links_footer {
+  margin-left: 60px;
+}
+
+.social-networks {
+  margin-left: 34px;
 }
